@@ -1,3 +1,15 @@
+modemmanager (1.4.2-1) experimental; urgency=medium
+
+  [ Marius B. Kotsbak ]
+  * Imported Upstream version 1.4.2
+  * Removed all patches applied upstream.
+    - All entries are either in src/77-mm-usb-device-blacklist.rules
+      or moved upstream to src/77-mm-usb-serial-adapters-greylist.rules,
+      not automatically probed.
+  * Update to latest Standards-Version 3.9.6.
+
+ -- Marius B. Kotsbak <marius@kotsbak.com>  Sun, 01 Feb 2015 19:48:02 +0100
+
 modemmanager (1.4.0-1) unstable; urgency=medium
 
   * New upstream release.
